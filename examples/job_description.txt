@@ -1,0 +1,37 @@
+Full-Stack Engineer (Remote or LA)
+
+ CoreSpeed Inc. — Backed by Baidu Ventures & Monad Ventures
+
+CoreSpeed is building the next-generation infrastructure for AI Agents — the systems powering agent-native applications at scale. If you want to work across cutting-edge infra, build open-source AI agent frameworks, and ship real products used by thousands, this is for you.
+
+
+Compensation up to 120k + options
+
+
+need to start working in Jan 2026
+
+
+What You’ll Do
+
+Build full-stack features across our AI agent platform & tools
+Work with modern frontend (React + TypeScript) and backend (Go/Rust/Deno)
+Develop web consoles for agent deployment, monitoring, and management
+Contribute to our open-source Zypher Agent Framework
+Design scalable infra: orchestration, sandboxing, networking, and developer tooling
+
+What We’re Looking For
+
+Strong full-stack skills (React/TS + Go/Rust/Deno)
+Experience with distributed systems, containers, or cloud infra
+Product-minded engineer who cares about developer experience
+Bonus: LLM APIs, agent frameworks, open-source contributions
+
+
+Why CoreSpeed
+
+Work on real AI infra problems, not prototypes
+Shape open-source frameworks used by thousands
+Competitive salary + equity
+Remote-first team with high ownership and impact
+Build the foundation of the agent-native future
+If this sounds like you, DM me or apply directly. Let’s build better infra for better AI agents. 🚀

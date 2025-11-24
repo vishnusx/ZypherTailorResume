@@ -48,16 +48,16 @@ curl -fsSL https://deno.land/install.sh | sh
 ```Verify:
 deno -V
 
-### **2️⃣ Clone the Repository**
+#### **2️⃣ Clone the Repository**
 git clone https://github.com/<your-username>/zypher-resume-tailor.git
 cd zypher-resume-tailor
 
-### **3️⃣ Add .env File**
+#### **3️⃣ Add .env File**
 OPENAI_API_KEY=your_api_key_here
 OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
 
-### **4️⃣ .env.example (Included in Repo)**
+#### **4️⃣ .env.example (Included in Repo)**
 
 # Example environment variables
 
@@ -76,17 +76,17 @@ OPENAI_BASE_URL=https://api.openai.com/v1
 # OPENAI_MODEL=llama3
 # OPENAI_BASE_URL=http://localhost:11434/v1
 
-### **5️⃣ Ensure Input Files Exist**
+#### **5️⃣ Ensure Input Files Exist**
 examples/resume.txt
 examples/job_description.txt
 
-### **Running the Agent**
+#### **Running the Agent**
 1. deno run -A main.ts
 or
 2. deno task start
 
 
-### **How It Works**
+#### **How It Works**
 
 main.ts
 
@@ -114,7 +114,7 @@ Initializes OpenAIModelProvider
 Buffers streaming output → prints clean final result
 
 
-### **Project Structure**
+#### **Project Structure**
 zypher-resume-tailor/
 │
 ├── agent.ts                # Core agent logic
@@ -127,23 +127,23 @@ zypher-resume-tailor/
     ├── resume.txt
     └── job_description.txt
 
-### **Sample Clean Output**
+#### **Sample Clean Output**
 
-### Extracted Resume Skills
+#### Extracted Resume Skills
 JavaScript · TypeScript · React.js · AWS · Docker · Kubernetes
 
-### JD Required Skills
+#### JD Required Skills
 React + TS · Go/Rust/Deno · Distributed Systems · Cloud Infra · LLM APIs
 
-### Skill Match Summary
+#### Skill Match Summary
 ✔ Matched:
 React.js · TypeScript · AWS · Docker · Kubernetes
 
 ❌ Missing:
 Go · Rust · Deno · Distributed Systems · OSS Contributions
 
-### Tailored Professional Summary
+#### Tailored Professional Summary
 (Generated summary…)
 
-### Improved Resume Bullet Points
+#### Improved Resume Bullet Points
 (Generated bullet points…)

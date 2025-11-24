@@ -1,0 +1,110 @@
+Vishnu Suram 
+Software Development Engineer 
+vishnuvsuram@gmail.com |Phone: 6823040283|USA |LinkedIn: https://www.linkedin.com/in/vishnu-suram-79441a68/ 
+
+SUMMARY
+A highly motivated and seasoned accomplished Software Engineer with over 7 years of extensive experience in full-stack development, specializing in designing, building, and maintaining scalable and robust enterprise applications using JavaScript/ Typescript, Java, Python, and frameworks like React.js, Spring Boot, Django, and Express.js. 
+Demonstrates expertise in delivering innovative solutions for complex backend and UI challenges, enhancing software functionality and user experience. 
+Proficient in agile methodologies and cross-functional team collaboration to adapt and implement new features rapidly, ensuring high performance and reliability. Eager to contribute valuable skills in software development.
+Successfully led and completed 5 major projects, contributing to boosting application performance by 30%  through code optimization and implementation of reusable components. Reduced bug occurrences by 25% through rigorous testing and comprehensive code reviews, driving a 15% improvement in team productivity and a 20% increase in customer satisfaction through enhanced features.
+Strong foundation in CS fundamentals, i.e., Data Structures and Algorithms, software architecture, design patterns, quality assurance, and consistently applying optimal solutions to complex technical challenges.
+Experienced in manual and automated testing, multithreading, API architecture, load balancing, container-based technologies, and CI/CD build systems. Proficient in designing scalable system architectures with Kubernetes, operating systems, and networking principles.
+Demonstrated excellent problem-solving skills with a proven track record of resolving critical issues under tight deadlines.
+
+EDUCATION
+The University of Texas at Arlington - January 2020 - December 2021 - Master’s in Computer Science, GPA 3.84 - Texas
+Indian Institute of Technology(IIT) Madras - June 2011 - June 2016 - Bachelor’s and Master’s in Computer Science and Engineering, GPA 3 - Tamil Nadu
+
+WORK EXPERIENCE
+
+Software Developer | EB1A Experts | Arizona | May 2025 – Present
+Developed high-performance, user-facing features using TypeScript/JavaScript with React.js, Redux, and Next.js, leveraging advanced concepts like React Hooks, Context API, and dynamic routing to deliver scalable, maintainable UIs that improved page load speed and enhanced user experience with the best design principles.
+Built reusable and modular component libraries with TypeScript with React, reducing code duplication and accelerating feature delivery by 30%, while implementing responsive design with Figma, Material UI, and CSS-in-JS for cross-device consistency.
+Implemented state-driven form builders and dynamic routing in React.js to allow users to create and edit multi-step legal workflows with real-time validation and autosave functionality, improving user completion rate by 45%.
+Designed and developed microservice architectures using Spring Boot, Java, implementing RESTful APIs, request validation, and exception handling, enabling seamless communication between services and improving backend reliability and scalability.
+Integrated Spring Boot services with PostgreSQL, MySQL, MongoDB, and Redis, applying JPA/Hibernate for ORM, caching strategies, and connection pooling to optimize query performance and reduce API response time by 25%.
+Worked with full-stack AI-powered applications by integrating Large Language Models (GPT-3.5, GPT-4) with OpenAI APIs and local models, enabling advanced features such as summarization, semantic search, and conversational AI to enhance user experience significantly.
+Engineered scalable data processing pipelines in Python (pandas, NumPy, scikit-learn) to automate model training, evaluation, and deployment workflows, cutting model development time by 40% and improving experimentation speed for the data science team.
+Architected scalable infrastructure using AWS (S3, API Gateway, DynamoDB, EC2, Lambda, Bedrock) with CI/CD via Jenkins and GitHub Actions to automate testing and deployment of containerized microservices on Kubernetes clusters, reducing deployment time and enabling seamless model updates.
+Applied test-driven development practices using testing frameworks and tools for both frontend and backend.
+Refactored legacy UI components into modular, TypeScript-based components using best practices in accessibility (WCAG) and error boundary handling, reducing UI defects by 30% and improving developer onboarding time.
+Ensured code quality through testing, code reviews, and documentation.
+
+Software Development Engineer | Amazon | Washington | February 2022 – October 2023
+Optimized Amazon’s global supply chain systems by building features in Java, Spring Boot, React.js, and TypeScript/JavaScript to improve Fulfillment and Planning-to-Promise (F2P) workflows, enabling faster customer request handling and boosting operational efficiency by 15%.
+Collaborated with design and UX teams to build interactive React.js-based dashboards for fulfillment and operations metrics, integrating asynchronous APIs and advanced filtering to accelerate insight generation by 25%.
+Migrated front-end modules from class-based components to React Hooks and Context API, streamlining state management and reducing bundle size by 22%, resulting in faster load times and improved maintainability.
+Developed features for an inventory movement optimization tool for fulfillment centers using AWS Lambda and DynamoDB, increasing product delivery combinations and enabling 20M+ additional daily requests, boosting fulfillment capacity by 25%.
+Developed and deployed inventory movement optimization tools leveraging AWS Lambda, DynamoDB, and SQS, increasing product delivery combinations and handling 20M+ additional daily requests, improving fulfillment capacity by 25%.
+Designed and implemented simulation models using Python and NumPy to analyze priority constraints and demand, providing actionable insights into cost and operational limitations for stakeholders, and reducing operational costs by 10%.
+Developed a virtual inventory transfer tool with Spring MVC, Spring Boot, and AWS SQS, facilitating seamless inventory redistribution and contributing to a $1 billion annual revenue increase, resulting in Improved inventory turnover by 20%.
+Enhanced core algorithms using Java, Amazon EMR, Apache Kafka, and Apache Spark, improving efficiency from 99.1% to 99.4%, reducing driver time by 3%, cutting packaging waste by 10%, saving $200M annually, and increasing delivery speed by 5%.
+Designed and developed a secure order tracking dashboard using React.js, TypeScript, EC2, AWS Lambda, API Gateway, and SQS, improving on-call issue resolution time by 50% and enhancing customer satisfaction by 15%.
+Deployed scalable applications using AWS Elastic Beanstalk for automated provisioning and integrated AWS IAM policies to ensure secure role-based access across services.
+Configured AWS Elastic Load Balancer (ELB) to distribute high-traffic workloads, improving application availability and reducing downtime during peak loads.
+Integrated AWS microservices with BMC Control-M scheduling workflows and implemented Terraform-based infrastructure deployments using modular YAML templates, improving automation and reducing configuration drift by 50%.
+Developed Swagger-based API documentation and built Karate-driven automated functional/regression test suites, leveraging Terracore services to mock downstream dependencies, improving test coverage and reducing defect leakage by 30%.
+Led global rollout of optimization tools across fulfillment centers using AWS CloudFormation and Jenkins, enhancing customer experience, reducing operational costs, and reducing deployment time by 30%.
+Designed Kubernetes deployment manifests, services, and ingress configurations to manage microservices, ensuring high availability and seamless rolling updates with zero downtime
+Operated in an agile environment, implementing CI/CD practices, and adapting to evolving priorities while proactively mitigating high-severity tickets. Debugged, implemented hotfixes, and led initiatives to reduce support tickets by 40% and enhance service reliability by 7%.
+Mentored junior engineers, conducted code reviews, and participated in hackathons to foster team growth and innovation, improving team productivity by 7%.
+
+Software Development Intern | Unique Software Development | Texas | July 2021 – December 2021
+Developed dashboards for vending machine sales data using React.js, Redux, and  TypeScript/JavaScript, and improved data accessibility by 30%.
+Designed and built screens delivering real-time insights on inventory, locations, and customers using Java and Spring Boot, enabling the processing of 5 million customer records per day with 99.9% reliability.
+Leveraging best coding principles and reusing backend components increases the application performance by 30%.
+Mentored the development team with a structured architecture framework, guiding them through the development and end-to-end (E2E) testing phases to ensure adherence to best practices and coding standards.
+Implemented Dockerized environments for backend services built with Spring Boot, allowing consistent development setups across teams and preparing applications for seamless Kubernetes deployment pipelines.
+Collaborated with clients to gather requirements and translate them into technical specifications using Jira and Confluence, ensuring alignment with business goals. Improved project delivery accuracy by 20%.
+Developed backend architecture with Spring Boot using Java, enhancing system scalability and reducing response time by 25%.
+
+Senior Software Engineer | Antuit | Bengaluru | April 2017 – December 2019
+Designed and developed a forecasting web application using React.js and Node.js, enabling product demand forecasting and historical data analysis, using Express.js, ensuring efficient routing, middleware integration, and seamless API handling for backend services.
+Built 100+ reusable React.js components with Redux and Webpack, reducing page load time by 25% and handling 50+ million data entries across six web pages. Enhanced user experience by 30%.
+Designed an intuitive interface using React.js and  React Hooks for delivery drivers to receive real-time updates from the forecasting application. Developed backend with Node.js, Express.js, Next.js, and GraphQL, implementing RESTful APIs and GraphQL endpoints for seamless data exchange, enabling drivers to update missing information and enhance forecasting accuracy.
+Designed, developed, and maintained a portal using TypeScript to generate reports and efficiently manage their distributors, ensuring streamlined operations and improved data accessibility by 30%.
+Implemented local storage and distributed caching techniques to store data across multiple servers, improving performance, scalability, and overall responsiveness by 15%.
+Designed dynamic data visualizations using D3.js, Lodash, and Google Optimize, increasing user engagement by 20%.
+Implemented A/B testing using Google Optimize and Analytics, optimizing UX design and increasing user engagement and user retention by 15%.
+Proficient in Jest for front-end testing (React components, API calls) and Mocha with Chai/Sinon for back-end testing (API endpoints, business logic). Skilled in E2E testing using Cypress and Selenium to simulate user interactions. Follow TDD/BDD practices to improve code quality, reliability, and maintainability by 25% and improve bug detection by 40%.
+Designed GraphQL APIs with Data Loader and Apollo Server, reducing server load and improving performance and API response time by 40%.
+Designed and implemented responsive UI components using LESS and SASS, enhancing maintainability and reducing CSS redundancy by 35%. Developed server-side rendered (SSR) and static web applications using Next.js, improving SEO by 40%.
+Migrated on-premise Node.js/React-based forecasting application workloads to AWS EC2, S3, and VPC, ensuring scalability and reducing infrastructure costs by 20%.
+Collaborated with data engineering teams to design data models and pipelines using Apache Kafka and PostgreSQL, ensuring seamless data integration and processing. Reduced data processing time by 20%.
+Collaborated with data engineering teams to containerize forecasting applications with Docker and deploy them on Kubernetes clusters, improving system scalability by 40% and reducing cross-environment configuration issues.
+Collaborated closely with designers to develop a clean, intuitive interface with seamless interactions. Partnered with QA and testing teams to ensure optimal user experience and maintain a consistent application flow.
+
+Software Engineer | WWStay | Bengaluru | June 2016 – April 2017
+Developed a hotel availability tracking web application using React, Django, Postgres, and Elasticsearch, enhancing search efficiency by 40% and reducing query response times by 15%.
+Integrating with platforms like Expedia and Travelport to applications using Python, Improved booking efficiency by 25%.
+Designed and built a supplier dashboard using React, HTML, CSS, Django, and RESTful APIs that allows suppliers to list their properties, update availability, and add promotions, enhancing the operational efficiency of the team by 12%.
+Built a deduplication tool using Support Vector Machine (SVM) and Scikit-learn, and a recommendation engine using K-Nearest Neighbors (KNN) and Pandas. Reduced duplicate entries by 30%.
+Created RESTful APIs, microservices, and Django models using Django REST Framework, MySQL, and JWT, ensuring secure and efficient data exchange. Improved API reliability by 20% and the speed of CRUD operations by 30%.
+Implemented a search engine using Elasticsearch and Kibana for faster text-based searches and a secure PDF generator using Python ReportLab, improving search accuracy by 35%.
+Containerized Django and React-based hotel availability tracking applications using Docker, and set up Kubernetes clusters for scaling search engine APIs, reducing response latency by 20% during peak booking periods.
+Developed an email task scheduler queue, processing emails asynchronously using Python Celery, improving system scalability and efficiency by 20%.
+Research Intern | Microsoft | Hyderabad                                                                                          May 2014 – July 2014
+Conducted an in-depth analysis of Power BI and Power View to enhance the functionality of the Product Viewer Tool's Advanced Query feature. 
+Enhanced multi-valued parameters of SQL Server Reporting Services (SSRS), implemented auto data refresh, and increased real-time data accuracy and availability by 20%.
+Enhanced the Power BI dashboards by integrating Pivot, Query, View, and Map using SQL Server and OData. Improved report generation speed by 25%.
+Developed shell scripts for multi-valued parameters using Bash and PowerShell, and implemented OAuth authentication using Azure AD. Improved system security by 30%.
+Implemented secure cloud integration with Azure and OAuth, ensuring compliance and increasing security efficiency by 30%.
+
+Core Skills
+Programming Language: JavaScript, Java, TypeScript, Python, SQL
+Frontend: React.js, React Redux, Next.js, jQuery, HTML5, CSS, CSS3, LESS, SASS, Bootstrap, Material UI, ECMAScript (ES6), JSON, AJAX.
+Backend: Spring Boot, Spring MVC, Spring Batch, Spring AOP, Spring Security, Microservices, Node.js, Express.js, Django, RESTful API, REST API, GraphQL, XML, JSON, SOAP.
+AI & LLM Integration: OpenAI API, LLMs.
+Industries: E-Commerce & Global Supply Chain, LegalTech / Case Management, Retail Analytics & Forecasting, Hospitality & Travel Tech, Software Consulting / Product Development, Enterprise Software & Cloud.
+Database: SQL DB, No-SQL DB, PostgreSQL, MySQL, Oracle Database, MongoDB, DynamoDB, Redis. 
+Data Processing & Pipelines: ETL/ELT, Apache Spark, Apache Kafka, Apache Airflow, LLM-based text processing, NLP, AI-powered ETL pipelines. 
+Cloud Technologies: Amazon Web Services (AWS), EC2, ECS, CloudWatch, S3, RDS, Redshift, API Gateway, Lambda, SNS, SQS, and DynamoDB, Contributor Insights (Alpine Rules), VPC, Aurora, Route 53, ElastiCache, and Bedrock.
+DevOps & CI/CD: Docker, Kubernetes, Jenkins, Git, GitHub, GitHub Actions,  Version Control, SVN, Bitbucket, Maven, Gradle.
+Testing & QA: JUnit, Selenium, Swagger Testing Framework, Jasmine, Cucumber,  Jest, Mocha, Cypress, Protractor.js, Postman, Unit Testing, Integration Testing, End-to-End (E2E) Testing, JMeter, Mockito.
+Security & Encryption: Static and dynamic data encryption.
+Development Tools: IntelliJ IDEA, Atom, Sublime, PyCharm, Eclipse, Visual Studio Code, MySQL Workbench, and Postman.
+Operating Systems & Environments: Windows, MacOS, Linux (Ubuntu), Virtual Machine (VM).
+Project Management and Methodologies: Agile, Scrum, Kanban, Waterfall, Software Development Life Cycle (SDLC), Test-Driven Development (TDD), Product Lifecycle Management(PLM).
+Soft Skills: Interpersonal Skills, Time management, Leadership, mentoring, Problem-solving, Collaboration, Decision-Making, Documentation and Presentation, Verbal communication, Code Review and Quality Assurance, Debugging, troubleshooting, Problem-Solving and Critical Thinking, Excellent communication skills, Presentation Skills, Collaborative mindset.
+Other Skills: Coding skills, Object-oriented Programming, Data Structures and Algorithms, Continuous Integration/Continuous Deployment (CI/CD), Unit Testing, Frontend Development, Web Development,  Web Content Accessibility Guidelines (WCAG).
+
