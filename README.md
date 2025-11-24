@@ -1,14 +1,15 @@
-# 🔥 Zypher Resume Tailor Agent  
+# 🔥 Zypher Resume Tailor Agent
+
 **Built for the CoreSpeed Technical Assessment**
 
-This project implements an autonomous **Zypher AI Agent** that reads a candidate’s resume and a job description, analyzes skill gaps, and generates a tailored professional summary and improved resume bullet points — all in a clean, structured format.
+This project implements an autonomous **Zypher AI Agent** that reads a candidate's resume and a job description, analyzes skill gaps, and generates a tailored professional summary and improved resume bullet points — all in a clean, structured format.
 
-It uses:
+## 🛠️ Tech Stack
 
-- **Zypher Agent Framework (@corespeed/zypher)**
-- **OpenAI / Groq / Azure / Ollama (OpenAI-compatible)**
+- **Zypher Agent Framework** (`@corespeed/zypher`)
+- **OpenAI / Groq / Azure / Ollama** (OpenAI-compatible)
 - **Deno 2.0+**
-- **Event streaming with buffered final output (no broken words)**
+- **Event streaming** with buffered final output (no broken words)
 
 This agent demonstrates real agent reasoning and is designed to be fully portable and easy to run on any Windows/macOS/Linux system.
 
@@ -17,48 +18,71 @@ This agent demonstrates real agent reasoning and is designed to be fully portabl
 ## 🚀 Features
 
 ### 🧠 Resume Intelligence Agent
-- Extracts skills from resume  
-- Extracts required skills from job description  
-- Finds matched + missing skills  
-- Generates a **6–8 line tailored professional summary**  
-- Rewrites resume bullet points optimized for the job  
+
+- Extracts skills from resume
+- Extracts required skills from job description
+- Finds matched + missing skills
+- Generates a **6–8 line tailored professional summary**
+- Rewrites resume bullet points optimized for the job
 
 ### ⚙️ Zypher Agent Framework Usage
-- Uses Zypher’s agent reasoning loop  
-- Supports OpenAI-style LLM providers  
-- Streamed event handling (buffered into clean final output)  
-- **No broken words / no partial tokens**  
+
+- Uses Zypher's agent reasoning loop
+- Supports OpenAI-style LLM providers
+- Streamed event handling (buffered into clean final output)
+- **No broken words / no partial tokens**
 
 ### 💻 Cross-Platform + Portable
-- Automatically detects user’s HOME directory  
-- Creates workspace:
 
+- Automatically detects user's HOME directory
+- Creates workspace: `~/zypher-resume-tailor/.zypher`
+
+---
 
 ## 📦 Installation & Setup
 
-### **1️⃣ Install Deno**
+### 1️⃣ Install Deno
 
-#### **Windows (PowerShell)**
+#### Windows (PowerShell)
+
 ```powershell
 iwr https://deno.land/install.ps1 -useb | iex
+```
 
-```macOS / Linux
+#### macOS / Linux
+
+```bash
 curl -fsSL https://deno.land/install.sh | sh
+```
 
-```Verify:
+#### Verify Installation
+
+```bash
 deno -V
+```
 
-#### **2️⃣ Clone the Repository**
-git clone https://github.com/<your-username>/zypher-resume-tailor.git
-cd zypher-resume-tailor
+### 2️⃣ Clone the Repository
 
-#### **3️⃣ Add .env File**
+```bash
+git clone https://github.com/vishnusx/ZypherTailorResume.git
+cd ZypherTailorResume
+```
+
+### 3️⃣ Add `.env` File
+
+Create a `.env` file in the root directory:
+
+```env
 OPENAI_API_KEY=your_api_key_here
 OPENAI_MODEL=gpt-4o-mini
 OPENAI_BASE_URL=https://api.openai.com/v1
+```
 
-#### **4️⃣ .env.example (Included in Repo)**
+### 4️⃣ `.env.example` (Included in Repo)
 
+The repository includes a `.env.example` file with example configurations:
+
+```env
 # Example environment variables
 
 # OpenAI Recommended
@@ -75,46 +99,55 @@ OPENAI_BASE_URL=https://api.openai.com/v1
 # OPENAI_API_KEY=dummy
 # OPENAI_MODEL=llama3
 # OPENAI_BASE_URL=http://localhost:11434/v1
+```
 
-#### **5️⃣ Ensure Input Files Exist**
-examples/resume.txt
-examples/job_description.txt
+### 5️⃣ Ensure Input Files Exist
 
-#### **Running the Agent**
-1. deno run -A main.ts
+Make sure you have the following files in the `examples/` directory:
+
+- `examples/resume.txt`
+- `examples/job_description.txt`
+
+---
+
+## 🏃 Running the Agent
+
+You can run the agent using either of these commands:
+
+```bash
+deno run -A main.ts
+```
+
 or
-2. deno task start
 
+```bash
+deno task start
+```
 
-#### **How It Works**
+---
 
-main.ts
+## 🔍 How It Works
 
-Loads .env
+### `main.ts`
 
-Reads resume & JD from ./examples/
+- Loads `.env` configuration
+- Reads resume & job description from `./examples/`
+- Calls `runResumeTask()`
+- Prints clean formatted output
 
-Calls runResumeTask()
+### `agent.ts`
 
-Prints clean formatted output
+- Creates Zypher context
+- Auto-detects home directory
+- Creates a workspace: `~/zypher-resume-tailor/.zypher`
+- Initializes `OpenAIModelProvider`
+- Buffers streaming output → prints clean final result
 
-agent.ts
+---
 
-Creates Zypher context
+## 📁 Project Structure
 
-Auto-detects home directory
-
-Creates a workspace:
-
-~/zypher-resume-tailor/.zypher
-
-
-Initializes OpenAIModelProvider
-
-Buffers streaming output → prints clean final result
-
-
-#### **Project Structure**
+```
 zypher-resume-tailor/
 │
 ├── agent.ts                # Core agent logic
@@ -126,24 +159,50 @@ zypher-resume-tailor/
 └── examples/
     ├── resume.txt
     └── job_description.txt
+```
 
-#### **Sample Clean Output**
+---
 
-#### Extracted Resume Skills
+## 📊 Sample Output
+
+### Extracted Resume Skills
+
+```
 JavaScript · TypeScript · React.js · AWS · Docker · Kubernetes
+```
 
-#### JD Required Skills
+### JD Required Skills
+
+```
 React + TS · Go/Rust/Deno · Distributed Systems · Cloud Infra · LLM APIs
+```
 
-#### Skill Match Summary
-✔ Matched:
+### Skill Match Summary
+
+**✔ Matched:**
+```
 React.js · TypeScript · AWS · Docker · Kubernetes
+```
 
-❌ Missing:
+**❌ Missing:**
+```
 Go · Rust · Deno · Distributed Systems · OSS Contributions
+```
 
-#### Tailored Professional Summary
-(Generated summary…)
+### Tailored Professional Summary
 
-#### Improved Resume Bullet Points
-(Generated bullet points…)
+*(Generated summary…)*
+
+### Improved Resume Bullet Points with matched skills
+
+*(Generated bullet points…)*
+
+### Improved Resume Bullet Points with missing skills
+
+*(Generated bullet points…)*
+
+---
+
+## 📝 License
+
+Built for the CoreSpeed Technical Assessment.

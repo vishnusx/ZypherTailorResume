@@ -30,7 +30,7 @@ Your tasks:
 1. Extract key skills from the resume  
 2. Extract required skills from the job description  
 3. Identify matched vs missing skills  
-4. Generate a tailored 6–8 line professional summary  
+4. Generate a tailored 6–8 line professional summary using matched and missing skills 
 5. Rewrite resume bullet points based on job description  
 
 Return output in this EXACT format:
@@ -48,7 +48,10 @@ Return output in this EXACT format:
 ### Tailored Professional Summary
 ...
 
-### Improved Resume Bullet Points
+### Improved Resume Bullet Points with matched skills
+...
+
+### Improved Resume Bullet Points with missing skills
 ...
 
 Resume:
